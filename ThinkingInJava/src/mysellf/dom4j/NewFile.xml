@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LST_CALLEDNAResponse>
+	<Result code="0" desc="SUCCESS0001:操作成功">
+		<ResultData>
+			<Table1>
+				<Item id="1" name="设备1">
+					<CALLPREFIX>00</CALLPREFIX>
+					<SERPROP>INTERNATIONAL</SERPROP>
+					<INFOFLAG>FALSE</INFOFLAG>
+					<ENTERFLAG>TRUE</ENTERFLAG>
+					<VMSFLAG>正常</VMSFLAG>
+					<MINLEN>0</MINLEN>
+					<MAXLEN>100</MAXLEN>
+				</Item>
+				<Item id="2" name="设备2">
+					<CALLPREFIX>068</CALLPREFIX>
+					<SERPROP>OTHER</SERPROP>
+					<INFOFLAG>FALSE</INFOFLAG>
+					<ENTERFLAG>FALSE</ENTERFLAG>
+					<VMSFLAG>异常</VMSFLAG>
+					<MINLEN>5</MINLEN>
+					<MAXLEN>1000</MAXLEN>
+				</Item>
+			</Table1>
+		</ResultData>
+	</Result>
+</LST_CALLEDNAResponse>
